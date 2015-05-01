@@ -18,9 +18,6 @@ RUN \
     python-dnspython \
     python-setuptools \
     python2.7 && \
-  rm -rf /var/lib/apt/lists/*
-
-RUN \
   git clone https://github.com/barnybug/cli53.git && \
   cd cli53 && \
   python setup.py build && \
@@ -28,7 +25,8 @@ RUN \
   cd .. && \
   rm -rf cli53 && \
   apt-get -y purge git && \
-  apt-get -y autoremove --purge
+  apt-get -y autoremove --purge && \
+  rm -rf /var/lib/apt/lists/*
 
 RUN \
   export uid=1000 gid=1000 && \

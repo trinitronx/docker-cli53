@@ -1,6 +1,6 @@
 # trinitronx/docker-cli53
 
-[cli53][cli53-github] in a Docker container.  New GoLang build of [cli53][cli53-github], forked from [original build][zeitgeist-docker-cli53] of [alexzeitgeist/docker-cli53][zeitgeist-docker-cli53].
+[cli53][cli53-github] in a Docker container.  New GoLang build of [cli53][cli53-github], forked from [original build][zeitgeist-docker-cli53] of [alexzeitgeist/docker-cli53][zeitgeist-docker-cli53-github].
 
 ## Requirements
 
@@ -41,7 +41,7 @@ $ docker run --rm \
 ```
 
 [cli53-github]: https://github.com/barnybug/cli53
-[zeitgeist-docker-cli53]: https://github.com/alexzeitgeist/docker-cli53
+[zeitgeist-docker-cli53-github]: https://github.com/alexzeitgeist/docker-cli53
 [zeitgeist-docker-cli53]: https://registry.hub.docker.com/u/zeitgeist/docker-cli53/
 [trinitronx-docker-cli53]: https://registry.hub.docker.com/u/trinitronx/docker-cli53/
 [trinitronx-cli53-github]: https://github.com/trinitronx/cli53
